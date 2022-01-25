@@ -19,6 +19,7 @@ import java.util.List;
 public class BasicItemController {
 
     private final ItemRepository itemRepository;
+
     //테스트용 데이터
     @PostConstruct
     public void init(){
